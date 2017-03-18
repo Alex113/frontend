@@ -1,0 +1,143 @@
+
+body {
+  font: 400 14px/18px 'FuturaMediumC', Arial, sans-serif;
+}
+ul, body, h1 {
+  padding: 0;
+  margin: 0;
+}
+main {
+  position: relative;
+  overflow: hidden;
+}
+.top-line::after, .clearfix::after {
+  content: '';
+  display: table;
+  width: 100%;
+}
+.top-line {
+  background-color: #efefef;
+  height: 30px;
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.top-line div {
+  float: left;
+}
+.top-line ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+.top-line li {
+  float: left;
+}
+.top-line li + li {
+  margin-left: 30px;
+}
+.logo-block .left {
+  float: left;
+}
+.logo-block a {
+  font-size: 0;
+}
+.logo-block .right {
+  float: right;
+}
+.logo-block .center {
+  height: 100px;
+  text-align: center;
+}
+.menu {
+  background-color: #1A1A1A;
+  color: #fff;
+}
+.menu ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu li {
+  display: inline-block;
+}
+.menu li + li {
+  margin-left: 50px;
+}
+.menu a {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 4px 0;
+}
+.product {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 25px;
+}
+.product .product-main {
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 60px;
+}
+.product .breadcrumbs {
+  margin-bottom: 30px;
+}
+.product .breadcrumbs ul {
+  list-style-type: none;
+  float: left;
+}
+.product .breadcrumbs ul li {
+  float: left;
+}
+.product .breadcrumbs ul li a {
+  color: #6b6b6b;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+.product .breadcrumbs ul .active a {
+  border-bottom: 1px solid #6b6b6b;
+}
+.product .breadcrumbs ul li + li::before {
+ 
+  padding: 0 10px;
+  color: #8b8b8b;
+}
+.product .product-info .images-preview {
+  width: 10%;
+  float: left;
+}
+.product .product-info .images-preview ul {
+  list-style-type: none;
+}
+.product .product-info .images-preview ul li {
+  margin-bottom: 30px;
+}
+.product .product-info .images-preview ul .active img {
+  border: 3px solid #ff0092;
+  box-sizing: border-box;
+}
+.product .product-info .image {
+  width: 50%;
+  float: left;
+}
+.product .product-info .buy-info {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+.product .product-info .buy-info h1 {
+  font: 400 45px 'Baskerville Cyrillic LT Std', Arial, sans-serif;
+}
+.product .product-info .buy-info .buy-block {
+  margin: 45px 0;
+}
+.product .product-info .buy-info .buy-block .price {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
